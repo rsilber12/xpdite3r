@@ -1,0 +1,267 @@
+@font-face {
+    font-family: 'VisbyCF';
+    font-weight: 300;
+    src: url('../fonts/VisbyCF-Light.otf');
+}
+@font-face {
+    font-family: 'VisbyCF';
+    font-weight: 500;
+    src: url('../fonts/VisbyCF-Medium.otf');
+}
+@font-face {
+    font-family: 'VisbyCF';
+    font-weight: 700;
+    src: url('../fonts/VisbyCF-DemiBold.otf');
+}
+
+body {
+    font-family: 'VisbyCF' !important;
+    font-weight: 400 !important;
+    color: #121212;
+    line-height: 1.4 !important;
+    background: #f5f5f5 !important;
+}
+body h1, body h2, body h3, body h4, body h5 {
+    line-height: 1.4;
+}
+
+
+body a:hover,
+body a:focus,
+body a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+body p{
+    font-size: .875em;
+    line-height: 1.4;
+}
+body p a:hover{
+    color: #1e83cc;
+}
+
+
+.btn.btn1 {
+    color: #63aada !important;
+    background-color: #121212 !important;
+    border-color: #121212 !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 8px 20px;
+    font-size: 1em;
+    transition: all .4s ease;
+    min-width: 130px;
+}
+
+.btn.btn1:hover {
+    color: #fff !important;
+    background-color: #63aada !important;
+    border-color: #63aada !important;
+}
+.btn.btn-blue{
+    color: #fff !important;
+    background-color: #63aada !important;
+    border-color: #63aada !important;
+}
+.btn.btn-blue:hover{
+    color: #63aada !important;
+    background-color: #121212 !important;
+    border-color: #121212 !important;
+}
+
+.fs-12{
+    font-size: .75rem;
+}
+.fs-14{
+    font-size: .875rem;
+}
+.fs-18{
+    font-size: 1.125rem;
+}
+.fw-500{
+    font-weight: 500 !important;
+}
+.fw-600{
+    font-weight: 600 !important;
+}
+.fw-800{
+    font-weight: 800 !important;
+}
+
+
+.text-main {
+    color: #63aada !important;
+}
+.text-blue {
+    color: #2c3753 !important;
+}
+.link:hover{
+    color: #1e83cc;
+}
+
+.margin-top {
+    margin-top: 137px;
+}
+
+.padding{
+    padding: 80px 12px;
+}
+
+.logo1 {
+    width: 250px;
+}
+
+nav.navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: transparent !important;
+    padding: 0;
+    padding: 42px 0 15px 0;
+}
+nav.navbar .container {
+    position: relative
+}
+
+nav.navbar .container:after {
+    content: '';
+    background: rgb(0 0 0 / 20%);
+    width: calc(100% - 30px);
+    height: 1px;
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav.navbar .nav-item .nav-link {
+    color: #00001a;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+nav.navbar .nav-item .nav-link:hover {
+    color: #63aada;
+}
+
+nav.navbar .nav-item .nav-link.active {
+    color: #63aada;
+}
+nav.navbar .nav-item .nav-link i.fa-minus{
+    display: none;
+}
+
+nav.navbar .navbar-toggler {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-shadow: none !important;
+}
+/*nav.navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url('../images/menu-icon.svg') !important;
+}*/
+
+
+.section-1 {
+    background: #f5f5f5;
+    background: linear-gradient(45deg, #b9cddb, #f5f5f5, #f5f5f5, #f9f9cc);
+}
+
+.section-2 {
+    background: #f5f5f5;
+    background: linear-gradient(45deg, #f5f5f5, #f5f5f5, #f5f5f5, #b9cddb);
+}
+
+.section-3 {
+    background: #f5f5f5;
+    background: linear-gradient(45deg, #f5f5f5, #f5f5f5, #f5f5f5, #f9f9cc);
+}
+
+/* .software-box */
+.software-box {
+    height: 100%;
+}
+.software-box img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
+.software-box .txt {
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    text-align: center;
+    min-height: 170px;
+}
+
+
+/* benefits-box */
+.benefits-box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.benefits-box img {
+    width: 16px;
+}
+
+
+/* .form.form1 */
+
+.form.form1 .form-control {
+    height: 50px;
+    border-color: #fff;
+    border-radius: 0;
+    font-size: .875em;
+    padding: 8px 15px;
+    box-shadow: none !important;
+    outline: none !important;
+}
+.form.form1 .form-control:focus {
+    border-color: #63aada;
+}
+
+.form.form1 .form-control::placeholder {
+    color: #938787;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* footer-section */
+.footer-section {
+    background: #2c3753;
+}
+
+.footer-section .logo-f {
+    width: 250px;
+}
+
+.footer-section .nav .nav-link {
+    color: #fff;
+    text-align: right;
+}
+
+.footer-section .nav .nav-link:hover {
+    color: #63aada;
+}
+.footer-section hr {
+    background: #fff;
+    height: 2px;
+    opacity: .3;
+    margin: 60px 0;
+}

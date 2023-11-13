@@ -1,0 +1,66 @@
+
+@media (max-width: 991px) {
+    .software-box .txt {
+        min-height: 190px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .software-box .txt {
+        min-height: 210px;
+    }
+}
+
+@media (max-width: 767px) {
+    .margin-top {
+        margin-top: 80px;
+    }
+    .padding {
+        padding: 60px 12px;
+    }
+    .fs-18 {
+        font-size: 1rem;
+    }
+    .logo1 {
+        width: 150px;
+    }
+    nav.navbar {
+        padding: 24px 12px 15px 12px;
+    }
+    nav.navbar .navbar-collapse {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 99;
+        transition: all .4s ease;
+    }
+    nav.navbar .navbar-collapse.show {
+        left: 0;
+    }
+    
+    nav.navbar .nav-item .nav-link {
+        text-align: center;
+        padding: 15px 15px;
+    }
+
+    .footer-section .logo-f {
+        width: 150px;
+        min-width: 160px;
+    }
+    .footer-section hr {
+        margin: 40px 0;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    .software-box .txt {
+        min-height: auto;
+    }
+}
